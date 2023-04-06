@@ -60,8 +60,8 @@
   text-align: justify;
 }
 .showcase .showcase-content .btn-left{
-  background: linear-gradient(to right, blue,lightblue);
+  background: linear-gradient(to right, rgba(0, 0, 255, 0.44),lightblue);
 }
 .showcase .showcase-content .btn-right{
-  background: linear-gradient(to right, lightblue,blue);
+  background: linear-gradient(to right, lightblue,rgba(0, 0, 255, 0.519));
 }
