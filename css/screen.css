@@ -37,3 +37,31 @@
   font-weight: 700;
   border-right: 1px solid blue;
 }
+/* showcase-content*/
+.showcase .showcase-content{
+  max-width: 850px;
+  margin-top: 15%;
+  padding: 0 95px;
+}
+.showcase .showcase-content h1{
+  color: darkblue;
+  font-size: 60px;
+  margin: 15px 0;
+}
+.showcase .showcase-content span{
+  color: aliceblue;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 500;
+}
+.showcase .showcase-content p{
+  color: antiquewhite;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+.showcase .showcase-content .btn-left{
+  background: linear-gradient(to right, blue,lightblue);
+}
+.showcase .showcase-content .btn-right{
+  background: linear-gradient(to right, lightblue,blue);
+}
