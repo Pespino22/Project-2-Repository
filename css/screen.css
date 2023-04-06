@@ -7,7 +7,7 @@
 }
 
 .showcase{
-  background: linear-gradient(blue, white);
+  background: linear-gradient(rgba(0, 0, 255, 0.511), white);
   width: 100%;
   height: 100vh;
 }
@@ -18,6 +18,22 @@
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
-  background-color: aqua;
+  background-color: rgba(0, 255, 255, 0.591);
   top: 0;
+  left: 0;
+}
+.showcase .left{
+  display: flex;
+  list-style: none;
+}
+.showcase .left li a{
+  display: inline-block;
+  font-size: 13px;
+  text-decoration: none;
+  color: aliceblue;
+  padding:  5px 15px;
+}
+.showcase .left li:first-child{
+  font-weight: 700;
+  border-right: 1px solid blue;
 }
