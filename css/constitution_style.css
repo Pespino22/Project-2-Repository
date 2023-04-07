@@ -1,8 +1,8 @@
+heading{
+	background: linear-gradient(rgba(0, 0, 255, 0.511), white);
+}
 h1{
   float:right;
-  vertical-align:middle;
-  margin-top:6%;
-  margin-right:40%;
 }
 li{
 	float:right;
@@ -40,4 +40,15 @@ li{
 }
 body{
 	text-align:center;
+}
+p{
+	margin:.5em;
+	margin-bottom:.7em;
+	font-size:18px;
+}
+h2{
+	font-size:1.7em;
+}
+h3{
+	font-size:1.471em
 }
