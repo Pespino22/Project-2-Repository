@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" id="index">
+  <head>
+    <link rel="stylesheet" href="css/constitution_style.css">
+  </head>
+  <body>
+    <header>
+	  <img src="https://static.wixstatic.com/media/80ed71_fa1e21e9f65843cd91dce868c24ee78f.jpg/v1/fill/w_223,h_229,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ISUD_Logo_color.jpg" srcset="https://static.wixstatic.com/media/80ed71_fa1e21e9f65843cd91dce868c24ee78f.jpg/v1/fill/w_223,h_229,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ISUD_Logo_color.jpg">
+	  <h1 id="Title">The International Society for Universal Dialogue</h1>
+	  <nav id="main-navbar">
+        <div id="navbar-container">
+          <ul>
+            <li><a href=#jump title="same page">Home</a></li>
+            <li><a href="resume.html" title="resume">Resume</a></li>
+            <li><a href="media_recommendations.html" title="Media Recommendations">Media Recommendations</a></li>
+          </ul>
+        </div>
+      </nav>
+	</header>
+	<h2>Constitution</h2>
+	<h2>of the</h2>
+	<h2>International Society for Universal Dialogue</h2>
+	<p>We the Members of the International Society for Universal Dialogue, in order to investigate and articulate the basic principles of universality systematically, rationally, and comprehensively—working to promote a world-wide understanding of these principles, striving to help generate universal world-consciousness towards the gradual emergence of a decent world order, and aspiring to actualize the highest and richest human values in art, science, politics, education, and social life—do agree to declare the following statement as the constitution of the International Society for Universal Dialogue.</p>
+	<h3>Article I<h3>
+	<p></p>
+	<h3>Article II<h3>
+	<p></p>
+	<h3>Article III<h3>
+	<p></p>
+	<h3>Article IV<h3>
+	<p></p>
+	<h3>Article V<h3>
+	<p></p>
+	<h3>Article VI<h3>
+	<p></p>
+	<h3>Article VII<h3>
+	<p></p>
+	<h3>Article VIII<h3>
+	<p></p>
+	<h3>Article IX<h3>
+	<p>To protect the Society in future years a procedure for evaluation and removal from office after due dialogue is outlined in this Constitution. If any member of the ISUD Board should persistently violate this Constitution in any significant way, or act in a way that seriously jeopardizes our Society, that member will be subject to a process of potential removal. In such a case, the full Board (except the member facing removal) will fully discuss via e-mail (or in person if possible) all the various reasons a given member might face removal. All such correspondence must be shared with the full Board, except the member facing possible removal. Within two weeks of the initiation of such discussions, the member facing possible removal must be fully informed of the reasons for possible removal, and be asked to make a response if desired within one week. Any such response must be shared with all others on the Board, and discussed by them. Then within another week, a vote should be taken concerning removal of the member. A two-thirds majority of the full Board (less the member facing removal) is necessary for removal from office.</p>
+  </body>
+</html>
