@@ -77,16 +77,10 @@
 .bg-light{
   background: cadetblue;
 }
-.py-0{padding: 16px 0;}
-.py-1{padding: 24px 0;}
-.py-2{padding: 32px 0;}
+
 .py-3{padding: 48px 0;} 
 
-.p-0{padding: 16px 0;}
-.p-1{padding: 24px 0;}
-.p-2{padding: 32px 0;}
-.p-3{padding: 48px 0;} 
-.p-4{padding: 1px 0;} 
+
 
 .wrapper{
   max-width: 1320px;
@@ -114,8 +108,9 @@
   padding-bottom: 40px;
 }
 #information{
-  background: linear-gradient(white, rgba(0, 0, 255, 0.511));
+  background: linear-gradient(rgba(255, 255, 255, 0.711), rgba(0, 0, 255, 0.511));
   
+
 }
 #information .items .item{
   text-align: center;
