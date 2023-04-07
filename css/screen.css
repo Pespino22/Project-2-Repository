@@ -36,6 +36,18 @@ header {
   margin: 0px 3%;
 }
 
+.isud_journal h2 {
+  padding-top: 30px;
+}
+
+.isud_journal h2, h3 {
+  text-align: center;
+}
+
+.isud_journal {
+  margin: 0px 3%;
+}
+
 .slides {
   display: block;
   margin-left: 3%;
@@ -43,11 +55,11 @@ header {
 }
 
 .slides ul {
-  list-style-type: none;	
+  list-style-type: none;
 }
 
 .list ul {
-  list-style-type: circle;	
+  list-style-type: circle;
 }
 
 p {
@@ -58,7 +70,7 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 25px;
-  padding: 5px 5px;	
+  padding: 5px 5px;
 }
 
 #navigation {
@@ -173,14 +185,14 @@ form{
 	width: 50%;
 	padding-top: 40px;
 	color: white;
-	position: relative;	
+	position: relative;
 }
 label, input, textarea{
-	display: block;	
+	display: block;
 }
 input, textarea{
 	align-items:center;
-	width: 97%;	
+	width: 97%;
 	border: none;
 	border-radius: 20px;
 	outline: none;
@@ -190,18 +202,18 @@ input, textarea{
 	-webkit-transition: border 0.5s;
 	-moz-transition: border 0.5s;
 	-o-transition: border 0.5s;
-	border: solid 3px #98d4f3;	
+	border: solid 3px #98d4f3;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 }
 input:focus, textarea:focus{
-	border: solid 3px #77bde0;	
+	border: solid 3px #77bde0;
 }
 
 textarea{
-	height: 100px;	
-	resize: none; 
+	height: 100px;
+	resize: none;
 	overflow: auto;
 }
 button[type="submit"]{
@@ -218,7 +230,7 @@ button[type="submit"]{
 }
 button[type="submit"]:hover{
 	background-color: #e58f0e;
-	
+
 }
 label{
 	font-size: 1.5em;
@@ -282,7 +294,7 @@ label{
 	width: 235px;
 	height: 104px;
 	margin-left: -235px;
-	position: absolute;	
+	position: absolute;
 	animation: myfirst 24s;
 	-webkit-animation: myfirst 24s;
 	animation-iteration-count: infinite;
@@ -317,7 +329,7 @@ label{
 	padding-top: 2px;
 }
 .formgroup{
-	background-image: url('http://www.geertjanhendriks.nl/codepen/form/pixel.gif');	
+	background-image: url('http://www.geertjanhendriks.nl/codepen/form/pixel.gif');
 }
 .formgroup-active{
 	background-image: url('http://www.geertjanhendriks.nl/codepen/form/octo.png');
@@ -347,8 +359,16 @@ label{
   .constitution {
     margin: 0px 10%;
   }
-  #form{
-	width:80%;
+  #form {
+	width: 80%;
+  }
+}
+
+  .isud_journal {
+    margin: 0px 10%;
+  }
+  #form {
+    width: 80%;
   }
 }
 
