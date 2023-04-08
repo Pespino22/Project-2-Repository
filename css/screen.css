@@ -135,3 +135,17 @@
 #information .items item:hover{
   color: blue;
 }
+#constitution body{
+	text-align:center;
+}
+#constitution p{
+	margin:.5em;
+	margin-bottom:.7em;
+	font-size:18px;
+}
+#constitution h2{
+	font-size:1.7em;
+}
+#constitution h3{
+	font-size:1.471em
+}
