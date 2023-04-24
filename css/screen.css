@@ -101,6 +101,45 @@
   overflow: hidden;
   transition: all 0.5s ease;
 }
+.dropbtn {
+  display: inline-block;
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(37, 17, 43);
+  padding:  10px 30px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #1a3469;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #417cf2;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #1a3469;}
+
 /*----------------------------------------------------------------------*/
 /* information section styling */
 #information .items{

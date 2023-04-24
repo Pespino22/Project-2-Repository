@@ -7,6 +7,7 @@
     <title>Page Title</title>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" href="css/screen.css" >
+	<script src="js/script.js" async></script>
   </head>
   <body>
   <!--top navigation bar-->
@@ -14,8 +15,16 @@
       <div class="navbar-top">
         <ul class="left">
           <li><a href="index.html">TISFUD</a></li>
-          <li><a href="constitution.html"><i class="placeholder-content"></i>EXPLORE CONSTITUION</a></li>
-          <li><a href="login.html"><i class="placeholder-subscribe"></i>Sign in</a></li>
+          <div class="dropdown">
+            <li class="dropbtn">About Us</button>
+              <div class="dropdown-content">
+                <a href="index.html">History</a>
+                <a href="constitution.html">Constitution</a>
+                <a href="isud_journal.html">ISUD Journal</a>
+              </div>
+			</li>
+          </div>
+          <li><a href="login.html"><i class="placeholder-subscribe"></i>About US</a></li>
           <li><a href="isud_journal.html"><i class="placeholder-other"></i>Isud Journal</a></li>
         </ul>
       </div>
