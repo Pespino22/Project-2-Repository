@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="contact">
   <head>
     <meta charset="UTF-8" >
     <meta http-equiv="x-UA-Compatible" content="IE=edge" >
@@ -7,7 +7,6 @@
     <title>Page Title</title>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" href="css/screen.css" >
-	<script src="js/script.js" async></script>
   </head>
   <body>
   <!--top navigation bar-->
@@ -38,32 +37,35 @@
           <li><a href="login.html"><i class="placeholder-subscribe"></i>Log In</a></li>
         </ul>
       </div>
-      <!--showcase work-->
       <div class="showcase-content">
         <h1>The International Society for Universal Dialogue<span> placeholder</span></h1>
         <p>we are creating a better website for this random place that we just found out</p>
         <a href="constitution.html" class="btn btn-left"> EXPLORE CONSTITUTION</a>
-        <a href="isud_journal.html" class="btn btn-right"> EXPLORE ISUD Journal</a>
+        <a href="form.html" class="btn btn-right"> EXPLORE HTML FORM</a>
       </div>
       <div class="showcase">
-	    <div id="form">
+            <div class="contact">
+              <div id="form">
                 <div class="fish" id="fish"></div>
                 <div class="fish" id="fish2"></div>
-            <div class="items">
-              <div class="item">
-                <h3>Place holder</h3>
-                <p>this is a place holder to add the material i will need in this class</p>
-              </div>
-              <div class="item">
-                <h3>Place holder</h3>
-                <p>this is a place holder to add the material i will need in this class</p>
-              </div>
-              <div class="item">
-                <h3>Place holder</h3>
-                <p>this is a place holder to add the material i will need in this class</p>
+                <form id="waterform" method="get" autocomplete="on" action="#null">
+                  <div class="formgroup" id="name-form">
+                    <h2>Let's Chat!</h2>
+                    <label for="name">Your name</label>
+                    <input type="text" id="name" name="name">
+                  </div>
+                  <div class="formgroup" id="email-form">
+                    <label for="email">Your e-mail</label>
+                    <input type="email" id="email" name="email">
+                  </div>
+                  <div class="formgroup" id="message-form">
+                    <label for="message">Your message</label>
+                    <textarea id="message" name="message"></textarea>
+                  </div>
+                  <button type="submit" onclick="validateform()">Send your Message!</button>
+                </form>
               </div>
             </div>
-		</div>
       </div>
     </div>
   </body>
