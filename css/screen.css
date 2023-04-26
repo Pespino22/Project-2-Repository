@@ -203,10 +203,15 @@ button[type=submit]:hover {
 }
 form{
 	margin: 0 auto;
-	width: 50%;
+	width: 100%;
 	padding-top: 40px;
 	color: white;
 	position: relative;
+}
+@media only screen and (min-width: 800px) {
+form{
+	width: 50%;
+}
 }
 label, input, textarea{
 	display: block;
@@ -248,6 +253,7 @@ button[type="submit"]{
 	-moz-transition: background-color 0.5s;
 	-o-transition: background-color 0.5s;
 	transition: background-color 0.5s;
+	margin-bottom:1em;
 }
 button[type="submit"]:hover{
 	background-color: #e58f0e;
@@ -256,7 +262,6 @@ button[type="submit"]:hover{
 label{
 	font-size: 1.5em;
 	margin-top: 20px;
-	padding-left: 20px;
 }
 
 .container {
@@ -332,7 +337,7 @@ label{
 	-webkit-animation-delay: 12s;
 }
 #form{
-	width: 97%;
+	width: 100%;
 	height: auto;
 	background-color: #98d4f3;
 	overflow: hidden;
@@ -346,7 +351,7 @@ label{
 	-webkit-transition: background-image 0.7s;
 	-moz-transition: background-image 0.7s;
 	-o-transition: background-image 0.7s;
-	width: 97%;
+	width: 100%;
 	padding-top: 2px;
 }
 .formgroup{
