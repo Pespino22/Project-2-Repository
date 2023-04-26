@@ -174,7 +174,16 @@
 #information .items item:hover{
   color: blue;
 }
-#constitution body{
+#constitution .wrapper{
+	text-align:center;
+}
+#login .wrapper{
+	text-align:center;
+}
+#contact .wrapper{
+	text-align:center;
+}
+#isud_journal .wrapper{
 	text-align:center;
 }
 #constitution p{
